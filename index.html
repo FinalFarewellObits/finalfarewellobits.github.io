@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherished Memories - Obituary Writing Service</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter for a clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Dark but soft background */
+            background-color: #1a202c; /* A deep, soft black/gray */
+            color: #e2e8f0; /* Light gray text for contrast */
+        }
+        /* Custom styles to refine the soft dark theme */
+        .container-bg {
+            background-color: #2d3748; /* Slightly lighter dark shade for content blocks */
+        }
+        .text-soft-light {
+            color: #cbd5e0; /* Softer light text for descriptions */
+        }
+        .input-field {
+            background-color: #4a5568; /* Darker input background */
+            border: 1px solid #718096; /* Subtle border */
+            color: #e2e8f0; /* Input text color */
+        }
+        .input-field::placeholder {
+            color: #a0aec0; /* Placeholder text color */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center p-4">
+
+    <!-- Main Container for the website content -->
+    <div class="container-bg p-8 rounded-xl shadow-2xl max-w-3xl w-full text-center">
+        <!-- Header Section -->
+        <header class="mb-10">
+            <h1 class="text-5xl font-extrabold text-white mb-4">Cherished Memories</h1>
+            <p class="text-xl text-soft-light leading-relaxed">
+                Crafting heartfelt obituaries that honor a life beautifully lived.
+            </p>
+        </header>
+
+        <!-- Services Introduction Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-white mb-4">Our Compassionate Service</h2>
+            <p class="text-soft-light leading-relaxed mb-6">
+                At Cherished Memories, we understand the profound importance of commemorating a loved one's life with dignity and grace.
+                We specialize in writing personalized obituaries that truly capture the essence of an individual, reflecting their unique story,
+                passions, and the impact they had on those around them.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-gray-100 mb-2">Personalized Tributes</h3>
+                    <p class="text-soft-light">Every word carefully chosen to reflect the individual's unique journey.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-gray-100 mb-2">Sensitive & Timely</h3>
+                    <p class="text-soft-light">We work with compassion and efficiency during this difficult time.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-white mb-4">Connect With Us</h2>
+            <p class="text-soft-light leading-relaxed mb-6">
+                We are here to assist you with a sensitive and respectful approach. Please reach out to us with any inquiries.
+            </p>
+            <div class="text-lg text-soft-light mb-4">
+                <p><strong>Email:</strong> <a href="mailto:info@cherishedmemories.com" class="text-blue-400 hover:underline">info@cherishedmemories.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+15551234567" class="text-blue-400 hover:underline">(555) 123-4567</a></p>
+                <p><strong>Address:</strong> 123 Remembrance Lane, Serenity City, MA 02703</p>
+            </div>
+        </section>
+
+        <!-- Inquiry Form Section -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-white mb-4">Send Us a Message</h2>
+            <p class="text-soft-light leading-relaxed mb-6">
+                Please fill out the form below, and we will get back to you as soon as possible.
+            </p>
+            <form class="flex flex-col gap-6">
+                <input type="text" id="name" name="name" placeholder="Your Full Name"
+                       class="input-field p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" required>
+
+                <input type="email" id="email" name="email" placeholder="Your Email Address"
+                       class="input-field p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" required>
+
+                <input type="text" id="subject" name="subject" placeholder="Subject"
+                       class="input-field p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200">
+
+                <textarea id="message" name="message" rows="6" placeholder="Your Message or Inquiry Details"
+                          class="input-field p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" required></textarea>
+
+                <button type="submit"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full
+                               transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="mt-10 text-gray-500 text-sm">
+            <p>&copy; 2025 Cherished Memories. All rights reserved.</p>
+            <p>Dedicated to honoring lives and preserving legacies.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
